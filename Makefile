@@ -1,7 +1,12 @@
 VERSION = 3
 PATCHLEVEL = 0
+<<<<<<< HEAD
 SUBLEVEL = 31
 EXTRAVERSION =Zeus_Kernel_v1
+=======
+SUBLEVEL = 65
+EXTRAVERSION =-DeviantKernel_07
+>>>>>>> fbe2f58... Linux 3.0.65
 NAME = Sneaky Weasel
 
 # *DOCUMENTATION*
