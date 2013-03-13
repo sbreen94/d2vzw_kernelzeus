@@ -2330,6 +2330,12 @@ config SEC_PERIPHERAL_SECURE_CHK
 	bool "PERIPHERAL SECURE check"
 	help
 	  To check the authentication of peripheral image.
+	  
+config GPU_OVERCLOCK
+	bool "Enable GPU Overclocking option"
+	default n
+	help
+	  Adreno2xx overclocking up to 480 MHz
 
 config SEC_L1_DCACHE_PANIC_CHK
 	bool "L1 Dcache Panic check"
