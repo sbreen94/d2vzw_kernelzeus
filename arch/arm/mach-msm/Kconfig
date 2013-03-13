@@ -2325,17 +2325,23 @@ config MSM_DCVS_FOR_MSM8260A
 	bool "MSM8260a DVFS support"
 	help
 	  To divide the dcvs for MSM8260A Model.
-
-config SEC_PERIPHERAL_SECURE_CHK
-	bool "PERIPHERAL SECURE check"
-	help
-	  To check the authentication of peripheral image.
 	  
 config GPU_OVERCLOCK
 	bool "Enable GPU Overclocking option"
 	default n
 	help
 	  Adreno2xx overclocking up to 480 MHz
+	  
+config CPU_VOLTAGE_TABLE
+	bool "Enable CPU Voltage Table via sysfs for adjustements"
+	default n
+	help
+	  Krait User Votlage Control
+
+config SEC_PERIPHERAL_SECURE_CHK
+	bool "PERIPHERAL SECURE check"
+	help
+	  To check the authentication of peripheral image.
 
 config SEC_L1_DCACHE_PANIC_CHK
 	bool "L1 Dcache Panic check"
