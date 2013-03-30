@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 0
 SUBLEVEL = 65
-EXTRAVERSION =_Zeus_Kernel_v1
+EXTRAVERSION =_Zeus_Kernel_v2
 NAME = Sneaky Weasel
 
 # *DOCUMENTATION*
