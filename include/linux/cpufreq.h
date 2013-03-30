@@ -354,7 +354,7 @@ static inline unsigned int cpufreq_quick_get(unsigned int cpu)
 
 #define MIN_FREQ_LIMIT 192000
 //#define MAX_FREQ_LIMIT 1512000
-#define MAX_FREQ_LIMIT 1512000
+#define MAX_FREQ_LIMIT 1620000
 
 enum {
 	SET_MIN = 0,
