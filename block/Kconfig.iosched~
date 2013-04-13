@@ -20,16 +20,6 @@ config IOSCHED_DEADLINE
 	  CSCAN service with FIFO expiration of requests, switching to
 	  a new point in the service tree and doing a batch of IO from there
 	  in case of expiry.
-	  
-config IOSCHED_ROW
-	tristate "ROW I/O scheduler"
-	---help---
-	  The ROW I/O scheduler gives priority to READ requests over the
-	  WRITE requests when dispatching, without starving WRITE requests.
-	  Requests are kept in priority queues. Dispatching is done in a RR
-	  manner when the dispatch quantum for each queue is calculated
-	  according to queue priority.
-	  Most suitable for mobile devices.
 
 config IOSCHED_CFQ
 	tristate "CFQ I/O scheduler"
